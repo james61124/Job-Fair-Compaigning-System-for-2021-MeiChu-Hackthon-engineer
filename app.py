@@ -52,7 +52,10 @@ def handle_message(event):
         message = []
         message.append(TextSendMessage(text="您只要在您的電腦輸入\"CPU修復碼58126\"，就可正常運行了"))
         line_bot_api.reply_message(event.reply_token, message)
-    #實驗室(羅技)
+    elif event.message.text=="哈囉":
+        message = []
+        message.append(TextSendMessage(text="哈囉"))
+        line_bot_api.reply_message(event.reply_token, message)
     else:
         msg="我聽不太懂qq，可以再說一次嗎"
         message=[]
