@@ -7,3 +7,7 @@ This is only a part of the game.
 
 To see the result of this linebot, you need to push the whole project to the internet and copy the url of your repository to your linebot account in Line Developer.  
 
+## Run The Server
+```
+python manage.py runserver
+```
